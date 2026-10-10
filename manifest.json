@@ -1,0 +1,23 @@
+{
+  "id": "hydroelec-track-app",
+  "name": "HydroElec Track",
+  "short_name": "HydroElec",
+  "description": "Gestion digitale des dossiers de raccordement Eau & Électricité — fonctionne hors-ligne et se synchronise automatiquement.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0066FF",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Nouveau dossier", "short_name": "Nouveau", "url": "./#/dossiers/new", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
